@@ -24,7 +24,7 @@ Below is a visual representation of the database schema:
 
 - ASP.NET Core 8
 - Entity Framework Core
-- PostgreSQL + PostGIS
+- PostgreSQL
 - EF Core Power Tools (for reverse engineering)
 
 ## 📦 Setup
