@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\useref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\useref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\tokenef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\tokenef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\exhibitionef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\exhibitionef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\commentef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\commentef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\artistef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\artistef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\persistence\\artifactef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:persistence\\artifactef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\exhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\exhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\models\\artifact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:models\\artifact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\interface\\iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:interface\\iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\interface\\iexhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:interface\\iexhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\interface\\icommentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:interface\\icommentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\interface\\iartistdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:interface\\iartistdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\interface\\iartifactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:interface\\iartifactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:authentication\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\controller\\artifactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:controller\\artifactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\controller\\exhibitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:controller\\exhibitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|d:\\ontrack task\\sem 4\\sit331 backend services\\task 5.2hd\\mygalleryapi\\controller\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AF3162-A0FA-CBCA-A7A4-3E4DA253A54A}|MyGalleryApi.csproj|solutionrelative:controller\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtistEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ArtistEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\ArtistEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ArtistEF.cs",
+              "RelativeToolTip": "Persistence\\ArtistEF.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:45:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\CommentEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\CommentEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\CommentEF.cs",
+              "RelativeToolTip": "Persistence\\CommentEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:45:24.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExhibitionEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ExhibitionEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\ExhibitionEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ExhibitionEF.cs",
+              "RelativeToolTip": "Persistence\\ExhibitionEF.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:45:38.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\TokenEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\TokenEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\TokenEF.cs",
+              "RelativeToolTip": "Persistence\\TokenEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:15:48.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\UserEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\UserEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\UserEF.cs",
+              "RelativeToolTip": "Persistence\\UserEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:33:24.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArtifactEF.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ArtifactEF.cs",
+              "RelativeDocumentMoniker": "Persistence\\ArtifactEF.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Persistence\\ArtifactEF.cs",
+              "RelativeToolTip": "Persistence\\ArtifactEF.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:32:29.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:19:01.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:36.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:46:48.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GalleryContext.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\GalleryContext.cs",
+              "RelativeDocumentMoniker": "Models\\GalleryContext.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\GalleryContext.cs",
+              "RelativeToolTip": "Models\\GalleryContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:26:13.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Exhibition.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Exhibition.cs",
+              "RelativeDocumentMoniker": "Models\\Exhibition.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Exhibition.cs",
+              "RelativeToolTip": "Models\\Exhibition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:34.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:33.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Artist.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Artist.cs",
+              "RelativeToolTip": "Models\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:32.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Artifact.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Artifact.cs",
+              "RelativeDocumentMoniker": "Models\\Artifact.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Models\\Artifact.cs",
+              "RelativeToolTip": "Models\\Artifact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:22:21.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserDataAccess.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IUserDataAccess.cs",
+              "RelativeDocumentMoniker": "Interface\\IUserDataAccess.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IUserDataAccess.cs",
+              "RelativeToolTip": "Interface\\IUserDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:34:57.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IExhibition.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IExhibition.cs",
+              "RelativeDocumentMoniker": "Interface\\IExhibition.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IExhibition.cs",
+              "RelativeToolTip": "Interface\\IExhibition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:45:50.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommentDataAccess.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\ICommentDataAccess.cs",
+              "RelativeDocumentMoniker": "Interface\\ICommentDataAccess.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\ICommentDataAccess.cs",
+              "RelativeToolTip": "Interface\\ICommentDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:46:28.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IArtistDataAccess.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IArtistDataAccess.cs",
+              "RelativeDocumentMoniker": "Interface\\IArtistDataAccess.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IArtistDataAccess.cs",
+              "RelativeToolTip": "Interface\\IArtistDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:47:50.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IArtifactDataAccess.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IArtifactDataAccess.cs",
+              "RelativeDocumentMoniker": "Interface\\IArtifactDataAccess.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Interface\\IArtifactDataAccess.cs",
+              "RelativeToolTip": "Interface\\IArtifactDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:43:19.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Authentication\\BasicAuthenticationHandler.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Authentication\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "Authentication\\BasicAuthenticationHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowEMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:52:16.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ArtifactController.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ArtifactController.cs",
+              "RelativeDocumentMoniker": "Controller\\ArtifactController.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ArtifactController.cs",
+              "RelativeToolTip": "Controller\\ArtifactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:55:24.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Controller\\UserController.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\UserController.cs",
+              "RelativeToolTip": "Controller\\UserController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAQwKYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:07:45.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExhibitionController.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ExhibitionController.cs",
+              "RelativeDocumentMoniker": "Controller\\ExhibitionController.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ExhibitionController.cs",
+              "RelativeToolTip": "Controller\\ExhibitionController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAiwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:06:08.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ArtistController.cs",
+              "RelativeDocumentMoniker": "Controller\\ArtistController.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\ArtistController.cs",
+              "RelativeToolTip": "Controller\\ArtistController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAUwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:02:13.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controller\\CommentController.cs",
+              "ToolTip": "D:\\Ontrack Task\\Sem 4\\SIT331 Backend Services\\Task 5.2HD\\MyGalleryApi\\Controller\\CommentController.cs",
+              "RelativeToolTip": "Controller\\CommentController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:03:30.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

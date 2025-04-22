@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGalleryApi</name>
+    </assembly>
+    <members>
+        <member name="T:Gallery.Controllers.ArtifactController">
+            <summary>
+            Controller for managing artifacts in the Gallery API.
+            Provides endpoints for CRUD operations and additional utilities for artifacts.
+            </summary>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.#ctor(Gallery.Interfaces.IArtifactRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gallery.Controllers.ArtifactController"/> class.
+            </summary>
+            <param name="artifactRepository">The artifact repository to interact with the database.</param>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.GetAllArtifacts">
+            <summary>
+            Retrieve all artifacts.
+            </summary>
+            <returns>A list of all artifacts.</returns>
+            <response code="200">Returns the list of artifacts</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.GetArtifactById(System.Int32)">
+            <summary>
+            Retrieve a specific artifact by its ID.
+            </summary>
+            <param name="id">The ID of the artifact to retrieve.</param>
+            <returns>The artifact with the specified ID.</returns>
+            <response code="200">Returns the artifact with the specified ID</response>
+            <response code="404">If the artifact is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.CreateArtifact(Gallery.Models.Artifact)">
+            <summary>
+            Create a new artifact.
+            </summary>
+            <param name="artifact">The artifact to create.</param>
+            <returns>The created artifact with its ID.</returns>
+            <remarks>
+            Sample Request:
+                POST /api/artifact
+                {
+                    "title": "Artifact 1",
+                    "description": "A sample artifact",
+                    "artistId": 1,
+                    "exhibitionId": 2
+                }
+            </remarks>
+            <response code="201">Returns the newly created artifact</response>
+            <response code="400">If the artifact is null or invalid</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.UpdateArtifact(System.Int32,Gallery.Models.Artifact)">
+            <summary>
+            Update an existing artifact.
+            </summary>
+            <param name="id">The ID of the artifact to update.</param>
+            <param name="artifact">The updated artifact data.</param>
+            <returns>The updated artifact.</returns>
+            <remarks>
+            Sample Request:
+                PUT /api/artifact/1
+                {
+                    "id": 1,
+                    "title": "Updated Artifact",
+                    "description": "Updated description",
+                    "artistId": 1,
+                    "exhibitionId": 2
+                }
+            </remarks>
+            <response code="200">Returns the updated artifact</response>
+            <response code="400">If the artifact data is invalid</response>
+            <response code="404">If the artifact is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.DeleteArtifact(System.Int32)">
+            <summary>
+            Delete an artifact by its ID.
+            </summary>
+            <param name="id">The ID of the artifact to delete.</param>
+            <returns>No content if the deletion is successful.</returns>
+            <response code="204">If the artifact is successfully deleted</response>
+            <response code="400">If the ID is invalid</response>
+            <response code="404">If the artifact is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtifactController.ArtifactExists(System.Int32)">
+            <summary>
+            Check if an artifact exists by its ID.
+            </summary>
+            <param name="id">The ID of the artifact to check.</param>
+            <returns>A boolean indicating whether the artifact exists.</returns>
+            <response code="200">Returns true if the artifact exists, false otherwise</response>
+            <response code="400">If the ID is invalid</response>
+        </member>
+        <member name="T:Gallery.Controllers.ArtistController">
+            <summary>
+            Controller for managing artists in the Gallery API.
+            Provides endpoints for CRUD operations and additional utilities for artists.
+            </summary>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.#ctor(Gallery.Interfaces.IArtistRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gallery.Controllers.ArtistController"/> class.
+            </summary>
+            <param name="artistRepository">The artist repository to interact with the database.</param>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.GetAllArtists">
+            <summary>
+            Retrieve all artists.
+            </summary>
+            <returns>A list of all artists.</returns>
+            <response code="200">Returns the list of artists</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.GetArtistById(System.Int32)">
+            <summary>
+            Retrieve a specific artist by their ID.
+            </summary>
+            <param name="id">The ID of the artist to retrieve.</param>
+            <returns>The artist with the specified ID.</returns>
+            <response code="200">Returns the artist with the specified ID</response>
+            <response code="404">If the artist is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.CreateArtist(Gallery.Models.Artist)">
+            <summary>
+            Create a new artist.
+            </summary>
+            <param name="artist">The artist to create.</param>
+            <returns>The created artist with their ID.</returns>
+            <remarks>
+            Sample Request:
+                POST /api/artist
+                {
+                    "name": "Artist Name",
+                    "bio": "A brief biography",
+                    "birthDate": "1980-01-01",
+                    "deathDate": null,
+                    "nationality": "American"
+                }
+            </remarks>
+            <response code="201">Returns the newly created artist</response>
+            <response code="400">If the artist is null or invalid</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.UpdateArtist(System.Int32,Gallery.Models.Artist)">
+            <summary>
+            Update an existing artist.
+            </summary>
+            <param name="id">The ID of the artist to update.</param>
+            <param name="artist">The updated artist data.</param>
+            <returns>The updated artist.</returns>
+            <remarks>
+            Sample Request:
+                PUT /api/artist/1
+                {
+                    "id": 1,
+                    "name": "Updated Artist Name",
+                    "bio": "Updated biography",
+                    "birthDate": "1980-01-01",
+                    "deathDate": null,
+                    "nationality": "American"
+                }
+            </remarks>
+            <response code="200">Returns the updated artist</response>
+            <response code="400">If the artist data is invalid</response>
+            <response code="404">If the artist is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.DeleteArtist(System.Int32)">
+            <summary>
+            Delete an artist by their ID.
+            </summary>
+            <param name="id">The ID of the artist to delete.</param>
+            <returns>No content if the deletion is successful.</returns>
+            <response code="204">If the artist is successfully deleted</response>
+            <response code="404">If the artist is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ArtistController.ArtistExists(System.Int32)">
+            <summary>
+            Check if an artist exists by their ID.
+            </summary>
+            <param name="id">The ID of the artist to check.</param>
+            <returns>A boolean indicating whether the artist exists.</returns>
+            <response code="200">Returns true if the artist exists, false otherwise</response>
+        </member>
+        <member name="T:Gallery.Controllers.CommentController">
+            <summary>
+            Controller for managing comments in the Gallery API.
+            Provides endpoints for CRUD operations and additional utilities for comments.
+            </summary>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.#ctor(Gallery.Interfaces.ICommentRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gallery.Controllers.CommentController"/> class.
+            </summary>
+            <param name="commentRepository">The comment repository to interact with the database.</param>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.GetAllComments">
+            <summary>
+            Retrieve all comments.
+            </summary>
+            <returns>A list of all comments.</returns>
+            <response code="200">Returns the list of comments</response>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.GetCommentById(System.Int32)">
+            <summary>
+            Retrieve a specific comment by its ID.
+            </summary>
+            <param name="id">The ID of the comment to retrieve.</param>
+            <returns>The comment with the specified ID.</returns>
+            <response code="200">Returns the comment with the specified ID</response>
+            <response code="404">If the comment is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.CreateComment(Gallery.Models.Comment)">
+            <summary>
+            Create a new comment.
+            </summary>
+            <param name="comment">The comment to create.</param>
+            <returns>The created comment with its ID.</returns>
+            <remarks>
+            Sample Request:
+                POST /api/comment
+                {
+                    "text": "This is a sample comment",
+                    "artifactId": 1,
+                    "userId": 2
+                }
+            </remarks>
+            <response code="201">Returns the newly created comment</response>
+            <response code="400">If the comment is null or invalid</response>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.UpdateComment(System.Int32,Gallery.Models.Comment)">
+            <summary>
+            Update an existing comment.
+            </summary>
+            <param name="id">The ID of the comment to update.</param>
+            <param name="comment">The updated comment data.</param>
+            <returns>The updated comment.</returns>
+            <remarks>
+            Sample Request:
+                PUT /api/comment/1
+                {
+                    "id": 1,
+                    "text": "Updated comment text",
+                    "artifactId": 1,
+                    "userId": 2
+                }
+            </remarks>
+            <response code="200">Returns the updated comment</response>
+            <response code="400">If the comment data is invalid</response>
+            <response code="404">If the comment is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.DeleteComment(System.Int32)">
+            <summary>
+            Delete a comment by its ID.
+            </summary>
+            <param name="id">The ID of the comment to delete.</param>
+            <returns>No content if the deletion is successful.</returns>
+            <response code="204">If the comment is successfully deleted</response>
+            <response code="404">If the comment is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.CommentController.GetCommentsByArtifactId(System.Int32)">
+            <summary>
+            Retrieve all comments for a specific artifact by its ID.
+            </summary>
+            <param name="artifactId">The ID of the artifact to retrieve comments for.</param>
+            <returns>A list of comments for the specified artifact.</returns>
+            <response code="200">Returns the list of comments for the specified artifact</response>
+            <response code="404">If no comments are found for the artifact</response>
+        </member>
+        <member name="T:Gallery.Controllers.ExhibitionController">
+            <summary>
+            Controller for managing exhibitions in the Gallery API.
+            Provides endpoints for CRUD operations and additional utilities for exhibitions.
+            </summary>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.#ctor(Gallery.Interfaces.IExhibitionRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gallery.Controllers.ExhibitionController"/> class.
+            </summary>
+            <param name="exhibitionRepository">The exhibition repository to interact with the database.</param>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.GetAllExhibitions">
+            <summary>
+            Retrieve all exhibitions.
+            </summary>
+            <returns>A list of all exhibitions.</returns>
+            <response code="200">Returns the list of exhibitions</response>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.GetExhibitionById(System.Int32)">
+            <summary>
+            Retrieve a specific exhibition by its ID.
+            </summary>
+            <param name="id">The ID of the exhibition to retrieve.</param>
+            <returns>The exhibition with the specified ID.</returns>
+            <response code="200">Returns the exhibition with the specified ID</response>
+            <response code="404">If the exhibition is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.CreateExhibition(Gallery.Models.Exhibition)">
+            <summary>
+            Create a new exhibition.
+            </summary>
+            <param name="exhibition">The exhibition to create.</param>
+            <returns>The created exhibition with its ID.</returns>
+            <remarks>
+            Sample Request:
+                POST /api/exhibition
+                {
+                    "title": "Exhibition 1",
+                    "startDate": "2023-10-01",
+                    "endDate": "2023-10-15",
+                    "location": "Gallery Hall A",
+                    "description": "A sample exhibition"
+                }
+            </remarks>
+            <response code="201">Returns the newly created exhibition</response>
+            <response code="400">If the exhibition is null or invalid</response>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.UpdateExhibition(System.Int32,Gallery.Models.Exhibition)">
+            <summary>
+            Update an existing exhibition.
+            </summary>
+            <param name="id">The ID of the exhibition to update.</param>
+            <param name="exhibition">The updated exhibition data.</param>
+            <returns>The updated exhibition.</returns>
+            <remarks>
+            Sample Request:
+                PUT /api/exhibition/1
+                {
+                    "id": 1,
+                    "title": "Updated Exhibition",
+                    "startDate": "2023-10-01",
+                    "endDate": "2023-10-20",
+                    "location": "Gallery Hall B",
+                    "description": "Updated description"
+                }
+            </remarks>
+            <response code="200">Returns the updated exhibition</response>
+            <response code="400">If the exhibition data is invalid</response>
+            <response code="404">If the exhibition is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.DeleteExhibition(System.Int32)">
+            <summary>
+            Delete an exhibition by its ID.
+            </summary>
+            <param name="id">The ID of the exhibition to delete.</param>
+            <returns>No content if the deletion is successful.</returns>
+            <response code="204">If the exhibition is successfully deleted</response>
+            <response code="404">If the exhibition is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.ExhibitionController.ExhibitionExists(System.Int32)">
+            <summary>
+            Check if an exhibition exists by its ID.
+            </summary>
+            <param name="id">The ID of the exhibition to check.</param>
+            <returns>A boolean indicating whether the exhibition exists.</returns>
+            <response code="200">Returns true if the exhibition exists, false otherwise</response>
+        </member>
+        <member name="T:Gallery.Controllers.UserController">
+            <summary>
+            Controller for managing users in the Gallery API.
+            Provides endpoints for CRUD operations and additional utilities for users.
+            </summary>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.#ctor(Gallery.Interfaces.IUserRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gallery.Controllers.UserController"/> class.
+            </summary>
+            <param name="userRepository">The user repository to interact with the database.</param>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.GetAllUsers">
+            <summary>
+            Retrieve all users.
+            </summary>
+            <returns>A list of all users.</returns>
+            <response code="200">Returns the list of users</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.GetUserById(System.Int32)">
+            <summary>
+            Retrieve a specific user by their ID.
+            </summary>
+            <param name="id">The ID of the user to retrieve.</param>
+            <returns>The user with the specified ID.</returns>
+            <response code="200">Returns the user with the specified ID</response>
+            <response code="404">If the user is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.CreateUser(Gallery.Models.User)">
+            <summary>
+            Create a new user.
+            </summary>
+            <param name="user">The user to create.</param>
+            <returns>The created user with their ID.</returns>
+            <remarks>
+            Sample Request:
+                POST /api/user
+                {
+                    "username": "newuser",
+                    "email": "newuser@example.com",
+                    "passwordHash": "hashedpassword",
+                    "displayName": "New User",
+                    "role": "Member"
+                }
+            </remarks>
+            <response code="201">Returns the newly created user</response>
+            <response code="400">If the user is null or invalid</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.UpdateUser(System.Int32,Gallery.Models.User)">
+            <summary>
+            Update an existing user.
+            </summary>
+            <param name="id">The ID of the user to update.</param>
+            <param name="user">The updated user data.</param>
+            <returns>The updated user.</returns>
+            <remarks>
+            Sample Request:
+                PUT /api/user/1
+                {
+                    "id": 1,
+                    "username": "updateduser",
+                    "email": "updateduser@example.com",
+                    "passwordHash": "updatedhashedpassword",
+                    "displayName": "Updated User",
+                    "role": "Admin"
+                }
+            </remarks>
+            <response code="200">Returns the updated user</response>
+            <response code="400">If the user data is invalid</response>
+            <response code="404">If the user is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delete a user by their ID.
+            </summary>
+            <param name="id">The ID of the user to delete.</param>
+            <returns>No content if the deletion is successful.</returns>
+            <response code="204">If the user is successfully deleted</response>
+            <response code="404">If the user is not found</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.UserExists(System.Int32)">
+            <summary>
+            Check if a user exists by their ID.
+            </summary>
+            <param name="id">The ID of the user to check.</param>
+            <returns>A boolean indicating whether the user exists.</returns>
+            <response code="200">Returns true if the user exists, false otherwise</response>
+        </member>
+        <member name="M:Gallery.Controllers.UserController.GetUserByUsername(System.String)">
+            <summary>
+            Retrieve a specific user by their username.
+            </summary>
+            <param name="username">The username of the user to retrieve.</param>
+            <returns>The user with the specified username.</returns>
+            <response code="200">Returns the user with the specified username</response>
+            <response code="404">If the user is not found</response>
+        </member>
+    </members>
+</doc>

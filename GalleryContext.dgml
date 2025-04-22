@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Artifact" Category="EntityType" Annotations="Relational:Schema: Relational:TableName: artifacts RelationshipDiscoveryConvention:NavigationCandidates: Microsoft.EntityFrameworkCore.Utilities.OrderedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="281.541666666667,283.84,369.89,253.84" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Artifact" Name="Artifact" />
+    <Node Id="Artifact.Artist" Category="Navigation Property" Bounds="386.091666666667,323.84,65.0433333333334,25.96" Dependent="" Field="" Inverse="Artifacts" Label="Artist (1)" Name="Artist" Principal="Artist" PropertyAccessMode="PropertyAccessMode.Default" Type="Artist" />
+    <Node Id="Artifact.ArtistId" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: artist_id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="301.541666666667,379.8,87.9766666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="ArtistId (int?)" MaxLength="None" Name="ArtistId" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Artifact.Comments" Category="Navigation Collection" Bounds="538.541666666667,379.8,92.8899999999999,25.96" Dependent="Comment" Field="" Inverse="Artifact" Label="Comments (*)" Name="Comments" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="ICollection&lt;Comment&gt;" />
+    <Node Id="Artifact.CreatedAt" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: created_at" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="301.541666666667,491.72,138.523333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="CreatedAt (DateOnly?)" MaxLength="None" Name="CreatedAt" PropertyAccessMode="PropertyAccessMode.Default" Type="DateOnly?" ValueGenerated="None" />
+    <Node Id="Artifact.Description" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: description" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="443.498333333333,435.76,120.876666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Description (string)" MaxLength="None" Name="Description" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Artifact.Exhibition" Category="Navigation Property" Bounds="419.518333333333,379.8,89.0233333333333,25.96" Dependent="" Field="" Inverse="Artifacts" Label="Exhibition (1)" Name="Exhibition" Principal="Exhibition" PropertyAccessMode="PropertyAccessMode.Default" Type="Exhibition" />
+    <Node Id="Artifact.ExhibitionId" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: exhibition_id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="301.541666666667,435.76,111.956666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="ExhibitionId (int?)" MaxLength="None" Name="ExhibitionId" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Artifact.Id" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Npgsql:ValueGenerationStrategy: IdentityByDefaultColumn Relational:ColumnName: id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="301.541666666667,323.84,54.55,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Id (int)" MaxLength="None" Name="Id" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Artifact.Title" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 150 Relational:ColumnName: title" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="481.135,323.84,83.0666666666666,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Title (string)" MaxLength="(150)" Name="Title" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Artist" Category="EntityType" Annotations="Relational:Schema: Relational:TableName: artists RelationshipDiscoveryConvention:NavigationCandidates: Microsoft.EntityFrameworkCore.Utilities.OrderedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="20,583.64,310.973333333333,253.84" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Artist" Name="Artist" />
+    <Node Id="Artist.Artifacts" Category="Navigation Collection" Bounds="231.99,623.64,78.9833333333333,25.96" Dependent="Artifact" Field="" Inverse="Artist" Label="Artifacts (*)" Name="Artifacts" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="ICollection&lt;Artifact&gt;" />
+    <Node Id="Artist.Bio" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: bio" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="124.55,623.64,77.44,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Bio (string)" MaxLength="None" Name="Bio" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Artist.BirthDate" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: birth_date" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40,735.560000000001,135,25.9599999999999" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="BirthDate (DateOnly?)" MaxLength="None" Name="BirthDate" PropertyAccessMode="PropertyAccessMode.Default" Type="DateOnly?" ValueGenerated="None" />
+    <Node Id="Artist.DeathDate" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: death_date" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40,791.520000000001,141.836666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="DeathDate (DateOnly?)" MaxLength="None" Name="DeathDate" PropertyAccessMode="PropertyAccessMode.Default" Type="DateOnly?" ValueGenerated="None" />
+    <Node Id="Artist.Id" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Npgsql:ValueGenerationStrategy: IdentityByDefaultColumn Relational:ColumnName: id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40,623.64,54.55,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Id (int)" MaxLength="None" Name="Id" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Artist.Name" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 100 Relational:ColumnName: name" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="40,679.6,92.32,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Name (string)" MaxLength="(100)" Name="Name" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Artist.Nationality" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 100 Relational:ColumnName: nationality" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="162.32,679.6,118.293333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Nationality (string)" MaxLength="(100)" Name="Nationality" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Comment" Category="EntityType" Annotations="Relational:Schema: Relational:TableName: comments RelationshipDiscoveryConvention:NavigationCandidates: Microsoft.EntityFrameworkCore.Utilities.OrderedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="737.451666666667,40,308.07,197.88" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Comment" Name="Comment" />
+    <Node Id="Comment.Artifact" Category="Navigation Property" Bounds="932.785,80,75.3566666666668,25.96" Dependent="" Field="" Inverse="Comments" Label="Artifact (1)" Name="Artifact" Principal="Artifact" PropertyAccessMode="PropertyAccessMode.Default" Type="Artifact" />
+    <Node Id="Comment.ArtifactId" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: artifact_id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="757.451666666667,191.92,98.29,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="ArtifactId (int?)" MaxLength="None" Name="ArtifactId" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Comment.CreatedAt" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: created_at Relational:ColumnType: timestamp without time zone Relational:DefaultValueSql: now()" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="885.741666666667,191.92,139.78,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="CreatedAt (DateTime?)" MaxLength="None" Name="CreatedAt" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime?" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Comment.Id" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Npgsql:ValueGenerationStrategy: IdentityByDefaultColumn Relational:ColumnName: id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="757.451666666667,80,54.55,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Id (int)" MaxLength="None" Name="Id" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Comment.Text" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: text" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="757.451666666667,135.96,81.59,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Text (string)" MaxLength="None" Name="Text" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Comment.User" Category="Navigation Property" Bounds="842.001666666667,80,60.7833333333334,25.96" Dependent="" Field="" Inverse="Comments" Label="User (1)" Name="User" Principal="User" PropertyAccessMode="PropertyAccessMode.Default" Type="User" />
+    <Node Id="Comment.UserId" Category="Property Foreign" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: user_id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="869.041666666667,135.96,83.7166666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="True" IsIndexed="True" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="UserId (int?)" MaxLength="None" Name="UserId" PropertyAccessMode="PropertyAccessMode.Default" Type="int?" ValueGenerated="None" />
+    <Node Id="Exhibition" Category="EntityType" Annotations="Relational:Schema: Relational:TableName: exhibitions RelationshipDiscoveryConvention:NavigationCandidates: Microsoft.EntityFrameworkCore.Utilities.OrderedDictionary`2[System.Reflection.PropertyInfo,System.ValueTuple`2[System.Type,System.Nullable`1[System.Boolean]]]" BaseClass="" Bounds="361.186666666667,583.64,316.6,253.84" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="Exhibition" Name="Exhibition" />
+    <Node Id="Exhibition.Artifacts" Category="Navigation Collection" Bounds="465.736666666667,623.64,78.9833333333333,25.96" Dependent="Artifact" Field="" Inverse="Exhibition" Label="Artifacts (*)" Name="Artifacts" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="ICollection&lt;Artifact&gt;" />
+    <Node Id="Exhibition.Description" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: description" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="516.933333333333,679.6,120.876666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Description (string)" MaxLength="None" Name="Description" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Exhibition.EndDate" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: end_date" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="381.186666666667,735.56,124.73,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="EndDate (DateOnly)" MaxLength="None" Name="EndDate" PropertyAccessMode="PropertyAccessMode.Default" Type="DateOnly" ValueGenerated="None" />
+    <Node Id="Exhibition.Id" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Npgsql:ValueGenerationStrategy: IdentityByDefaultColumn Relational:ColumnName: id" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="381.186666666667,623.64,54.55,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Id (int)" MaxLength="None" Name="Id" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="Exhibition.Location" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 150 Relational:ColumnName: location" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="381.186666666667,679.6,105.746666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Location (string)" MaxLength="(150)" Name="Location" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="Exhibition.StartDate" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: start_date" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="381.186666666667,791.52,129.203333333333,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="StartDate (DateOnly)" MaxLength="None" Name="StartDate" PropertyAccessMode="PropertyAccessMode.Default" Type="DateOnly" ValueGenerated="None" />
+    <Node Id="Exhibition.Title" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 150 Relational:ColumnName: title" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="574.72,623.64,83.0666666666666,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Title (string)" MaxLength="(150)" Name="Title" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="IModel" Category="Model" Annotations="BaseTypeDiscoveryConvention:DerivedTypes: System.Collections.Generic.Dictionary`2[System.Type,System.Collections.Generic.List`1[Microsoft.EntityFrameworkCore.Metadata.IConventionEntityType]] InversePropertyAttributeConvention:InverseNavigations: System.Collections.Generic.Dictionary`2[System.Type,System.Collections.Generic.SortedSet`1[System.Type]] NonNullableConventionState: System.Reflection.NullabilityInfoContext Npgsql:ValueGenerationStrategy: IdentityByDefaultColumn Relational:MaxIdentifierLength: 63" Bounds="0,0,1121.51,857.48" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" Label="GalleryContext" ProductVersion="9.0.4" PropertyAccessMode="PropertyAccessMode.Default" />
+    <Node Id="User" Category="EntityType" Annotations="" BaseClass="" Bounds="681.463333333333,283.84,420.046666666667,253.84" ChangeTrackingStrategy="ChangeTrackingStrategy.Snapshot" Group="Expanded" IsAbstract="False" Label="User" Name="User" />
+    <Node Id="User.Comments" Category="Navigation Collection" Bounds="701.463333333333,379.8,92.89,25.96" Dependent="Comment" Field="" Inverse="User" Label="Comments (*)" Name="Comments" Principal="" PropertyAccessMode="PropertyAccessMode.Default" Type="ICollection&lt;Comment&gt;" />
+    <Node Id="User.CreatedAt" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: created_at Relational:ColumnType: timestamp without time zone Relational:DefaultValueSql: now()" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="868.143333333333,491.72,139.78,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="CreatedAt (DateTime?)" MaxLength="None" Name="CreatedAt" PropertyAccessMode="PropertyAccessMode.Default" Type="DateTime?" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="User.DisplayName" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 100 Relational:ColumnName: display_name" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="845.883333333333,435.76,130.606666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="DisplayName (string)" MaxLength="(100)" Name="DisplayName" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.Email" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 100 Relational:ColumnName: email" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="899.676666666667,323.84,88.95,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Email (string)" MaxLength="(100)" Name="Email" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.FirstName" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 50 Relational:ColumnName: first_name" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="701.463333333333,435.76,114.42,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="FirstName (string)" MaxLength="(50)" Name="FirstName" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.Id" Category="Property Primary" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: id Relational:DefaultValueSql: nextval('users_id_int_seq'::regclass)" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="701.463333333333,323.84,54.55,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="True" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Id (int)" MaxLength="None" Name="Id" PropertyAccessMode="PropertyAccessMode.Default" Type="int" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="User.LastName" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 50 Relational:ColumnName: last_name" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="824.353333333333,379.8,113.236666666667,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="LastName (string)" MaxLength="(50)" Name="LastName" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.PasswordHash" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="Relational:ColumnName: password_hash" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="701.463333333333,491.72,136.68,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="PasswordHash (string)" MaxLength="None" Name="PasswordHash" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+    <Node Id="User.Role" Category="Property Optional" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 50 Relational:ColumnName: role Relational:DefaultValueSql: 'Member'::character varying" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="786.013333333333,323.84,83.6633333333334,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="False" IsPrimaryKey="False" IsRequired="False" IsShadow="False" IsUnicode="True" Label="Role (string)" MaxLength="(50)" Name="Role" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="ValueGenerated.OnAdd" />
+    <Node Id="User.Username" Category="Property Required" AfterSaveBehavior="PropertySaveBehavior.Save" Annotations="MaxLength: 50 Relational:ColumnName: username" BeforeSaveBehavior="PropertySaveBehavior.Save" Bounds="967.59,379.8,113.92,25.96" Field="" IsAlternateKey="False" IsConcurrencyToken="False" IsForeignKey="False" IsIndexed="True" IsPrimaryKey="False" IsRequired="True" IsShadow="False" IsUnicode="True" Label="Username (string)" MaxLength="(50)" Name="Username" PropertyAccessMode="PropertyAccessMode.Default" Type="string" ValueGenerated="None" />
+  </Nodes>
+  <Links>
+    <Link Source="Artifact" Target="Artifact.Artist" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.ArtistId" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.Comments" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.CreatedAt" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.Description" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.Exhibition" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.ExhibitionId" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.Id" Category="Contains" />
+    <Link Source="Artifact" Target="Artifact.Title" Category="Contains" />
+    <Link Source="Artifact" Target="Artist" Category="Foreign Key" Annotations="Relational:Name: artifacts_artist_id_fkey" Bounds="304.949676513672,537.679992675781,38.3424682617188,39.501953125" From="Artifact.ArtistId" IsUnique="False" Label="1:*" LabelBounds="320.986666666667,552.68,14.0733333333333,15.96" Name="Artifact -&gt; Artist" To="Artist.Id" />
+    <Link Source="Artifact" Target="Exhibition" Category="Foreign Key" Annotations="Relational:Name: artifacts_exhibition_id_fkey" Bounds="488.924163818359,537.679992675781,6.55825805664063,37.097412109375" From="Artifact.ExhibitionId" IsUnique="False" Label="1:*" LabelBounds="492.986666666667,552.68,14.0733333333333,15.96" Name="Artifact -&gt; Exhibition" To="Exhibition.Id" />
+    <Link Source="Artist" Target="Artist.Artifacts" Category="Contains" />
+    <Link Source="Artist" Target="Artist.Bio" Category="Contains" />
+    <Link Source="Artist" Target="Artist.BirthDate" Category="Contains" />
+    <Link Source="Artist" Target="Artist.DeathDate" Category="Contains" />
+    <Link Source="Artist" Target="Artist.Id" Category="Contains" />
+    <Link Source="Artist" Target="Artist.Name" Category="Contains" />
+    <Link Source="Artist" Target="Artist.Nationality" Category="Contains" />
+    <Link Source="Comment" Target="Artifact" Category="Foreign Key" Annotations="Relational:Name: comments_artifact_id_fkey" Bounds="659.013549804688,236.479110717773,79.9673461914063,51.1452178955078" From="Comment.ArtifactId" IsUnique="False" Label="1:*" LabelBounds="700.860517008805,252.88,14.0733333333333,15.96" Name="Comment -&gt; Artifact" To="Artifact.Id" />
+    <Link Source="Comment" Target="Comment.Artifact" Category="Contains" />
+    <Link Source="Comment" Target="Comment.ArtifactId" Category="Contains" />
+    <Link Source="Comment" Target="Comment.CreatedAt" Category="Contains" />
+    <Link Source="Comment" Target="Comment.Id" Category="Contains" />
+    <Link Source="Comment" Target="Comment.Text" Category="Contains" />
+    <Link Source="Comment" Target="Comment.User" Category="Contains" />
+    <Link Source="Comment" Target="Comment.UserId" Category="Contains" />
+    <Link Source="Comment" Target="User" Category="Foreign Key" Annotations="Relational:Name: fk_comment_user" Bounds="891.486694335938,237.880004882813,0,36.9599914550781" From="Comment.UserId" IsUnique="False" Label="1:*" LabelBounds="877.413333333333,252.88,14.0733333333334,15.96" Name="Comment -&gt; User" To="User.Id" />
+    <Link Source="Exhibition" Target="Exhibition.Artifacts" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.Description" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.EndDate" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.Id" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.Location" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.StartDate" Category="Contains" />
+    <Link Source="Exhibition" Target="Exhibition.Title" Category="Contains" />
+    <Link Source="IModel" Target="Artifact" Category="Contains" />
+    <Link Source="IModel" Target="Artist" Category="Contains" />
+    <Link Source="IModel" Target="Comment" Category="Contains" />
+    <Link Source="IModel" Target="Exhibition" Category="Contains" />
+    <Link Source="IModel" Target="User" Category="Contains" />
+    <Link Source="User" Target="User.Comments" Category="Contains" />
+    <Link Source="User" Target="User.CreatedAt" Category="Contains" />
+    <Link Source="User" Target="User.DisplayName" Category="Contains" />
+    <Link Source="User" Target="User.Email" Category="Contains" />
+    <Link Source="User" Target="User.FirstName" Category="Contains" />
+    <Link Source="User" Target="User.Id" Category="Contains" />
+    <Link Source="User" Target="User.LastName" Category="Contains" />
+    <Link Source="User" Target="User.PasswordHash" Category="Contains" />
+    <Link Source="User" Target="User.Role" Category="Contains" />
+    <Link Source="User" Target="User.Username" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="EntityType" />
+    <Category Id="Foreign Key" />
+    <Category Id="Model" />
+    <Category Id="Navigation Collection" />
+    <Category Id="Navigation Property" />
+    <Category Id="Property Foreign" />
+    <Category Id="Property Optional" />
+    <Category Id="Property Primary" />
+    <Category Id="Property Required" />
+  </Categories>
+  <Properties>
+    <Property Id="AfterSaveBehavior" Group="Property Flags" DataType="System.String" />
+    <Property Id="Annotations" Description="Annotations" Group="Model Properties" DataType="System.String" />
+    <Property Id="BaseClass" Description="Base class" Group="Model Properties" DataType="System.String" />
+    <Property Id="BeforeSaveBehavior" Group="Property Flags" DataType="System.String" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ChangeTrackingStrategy" Description="Change tracking strategy" Group="Model Properties" DataType="System.String" />
+    <Property Id="Dependent" Description="Dependent entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Field" Description="Backing field" Group="Model Properties" DataType="System.String" />
+    <Property Id="From" Description="Target property" Group="Model Properties" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="Inverse" Description="Inverse entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="IsAbstract" Label="IsAbstract" Description="IsAbstract" Group="Model Properties" DataType="System.Boolean" />
+    <Property Id="IsAlternateKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsConcurrencyToken" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsForeignKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsIndexed" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsPrimaryKey" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsRequired" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsShadow" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsUnicode" Group="Property Flags" DataType="System.Boolean" />
+    <Property Id="IsUnique" Group="Model Properties" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="MaxLength" DataType="System.String" />
+    <Property Id="Name" Group="Model Properties" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Principal" Description="Principal entity" Group="Model Properties" DataType="System.String" />
+    <Property Id="ProductVersion" Label="Product Version" Description="EF Core product version" Group="Model Properties" DataType="System.String" />
+    <Property Id="PropertyAccessMode" Group="Property Flags" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="To" Description="Source property" Group="Model Properties" DataType="System.String" />
+    <Property Id="Type" Description="CLR data type" Group="Model Properties" DataType="System.String" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueGenerated" Group="Property Flags" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="EntityType" ValueLabel="True">
+      <Condition Expression="HasCategory('EntityType')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property Required" ValueLabel="True">
+      <Condition Expression="HasCategory('Property Required')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Navigation Property" ValueLabel="True">
+      <Condition Expression="HasCategory('Navigation Property')" />
+      <Setter Property="Background" Value="#FF990000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Navigation Collection" ValueLabel="True">
+      <Condition Expression="HasCategory('Navigation Collection')" />
+      <Setter Property="Background" Value="#FFFF3232" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Model" ValueLabel="True">
+      <Condition Expression="HasCategory('Model')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
